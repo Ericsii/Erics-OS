@@ -5,7 +5,7 @@ A costum Operation System based on Rust
 
 This is a personal assignment repo based on Operation System course.
 
-### Self Info
+### Personal information
 
 Name: Feng Yunlong
 
