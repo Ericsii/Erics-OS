@@ -1,5 +1,5 @@
 # Erics-OS
-A costum Operation System based on Rust
+A custom Operation System based on Rust
 
 ## Statement
 
