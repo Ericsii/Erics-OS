@@ -40,7 +40,7 @@ pub fn handle_interrupt(context: &mut Context, scause: Scause, stval: usize) {
 /// 
 /// 继续执行，跳过这条 ebreak
 fn breakpoint(_context: &mut Context) {
-    println!("Breakpoint at 0x{:x}", _context.sepc);
+    // println!("Breakpoint at 0x{:x}", _context.sepc);
 }
 
 
