@@ -24,10 +24,15 @@ global_asm!(include_str!("entry.asm"));
 mod console;
 mod panic;
 mod sbi;
+mod interrupt;
 
 /// Rust 入口函数
 #[no_mangle]
-pub extern "C" fn rust_main() -> ! {
-    println!("Feng Yunlong's OS!");
-    panic!("End.");
+pub extern "C" fn rust_main() {
+    // 初始化
+    interrupt::init();
+
+    unsafe {
+        llvm_asm!("ebreak"::::"volatile");
+    };
 }
