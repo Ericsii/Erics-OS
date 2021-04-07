@@ -23,8 +23,8 @@ Implement system interrupt(Breakpoint interrupt, Time interrupt).
 
 ### 3.1
 
-    Buddy system dynamic memory allocation.
+Buddy system dynamic memory allocation.
 
 ### 3.2
 
-    Physical memory management(frame/page).
+Physical memory management(frame/page).
