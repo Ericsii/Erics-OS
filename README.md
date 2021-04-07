@@ -23,4 +23,8 @@ Implement system interrupt(Breakpoint interrupt, Time interrupt).
 
 ### 3.1
 
-    Dynamic memory allocation using "buddy_system_allocator".
+    Buddy system dynamic memory allocation.
+
+### 3.2
+
+    Physical memory management(frame/page).
