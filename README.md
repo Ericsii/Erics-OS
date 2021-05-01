@@ -28,3 +28,7 @@ Buddy system dynamic memory allocation.
 ### 3.2
 
 Physical memory management(frame/page).
+
+### LAB04
+
+Virtual memory management
